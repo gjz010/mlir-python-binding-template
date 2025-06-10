@@ -1,0 +1,13 @@
+[project]
+name = "mlir-python-binding"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy>=2.3.0",
+]
+
+[[tool.mypy.overrides]]
+module = ["mlir.*"]
+follow_untyped_imports = true

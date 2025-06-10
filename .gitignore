@@ -1,0 +1,6 @@
+.devenv
+.direnv
+.pre-commit-config.yaml
+**/__pycache__
+**/.mypy_cache
+**/.pytest_cache
